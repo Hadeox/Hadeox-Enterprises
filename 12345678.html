@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hadeox Enterprises - Premium Eco-Friendly Products">
+    <meta name="author" content="Hadeox Enterprises">
+    <meta name="keywords" content="Eco-Friendly, Sustainable Products, Steel Straw, Hadeox Enterprises">
+    <meta name="robots" content="index, follow">
+    <title>Hadeox Enterprises | Eco-Friendly Steel Straw</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x800');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 5rem 2rem;
+            position: relative;
+        }
+        .gradient-overlay {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased">
+    <header class="bg-gray-800 text-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto flex items-center justify-between py-4 px-6">
+            <h1 class="text-xl font-bold">Hadeox Enterprises</h1>
+            <nav class="flex space-x-6">
+                <a href="#about" class="hover:text-gray-300">About</a>
+                <a href="#products" class="hover:text-gray-300">Products</a>
+                <a href="#contact" class="hover:text-gray-300">Contact</a>
+                <a href="#reviews" class="hover:text-gray-300">Reviews</a>
+                <a href="#cart" class="hover:text-gray-300">Cart</a>
+                <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative hero">
+        <div class="gradient-overlay"></div>
+        <div class="relative z-10 text-center">
+            <h2 class="text-4xl font-bold">Your Gateway to Sustainability</h2>
+            <p class="mt-4 text-lg">At Hadeox Enterprises, we create premium eco-friendly products designed to make a difference. Join us on our journey towards a greener future.</p>
+            <button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded">Explore Now</button>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-6 py-10">
+        <div class="flex items-center justify-between py-4">
+            <input type="text" placeholder="Search for products..." class="border rounded px-4 py-2 w-2/3">
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Search</button>
+        </div>
+
+        <section id="about" class="my-10">
+            <h3 class="text-2xl font-bold mb-6">About Us</h3>
+            <div class="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">
+                <img src="https://via.placeholder.com/500x300" alt="About Hadeox" class="rounded shadow-lg">
+                <p class="text-lg leading-relaxed">Hadeox Enterprises specializes in crafting sustainable, high-quality products for conscious consumers. Our mission is to redefine everyday items with eco-friendly materials that stand the test of time. We believe in empowering communities by providing alternatives that benefit both the planet and future generations.</p>
+            </div>
+        </section>
+
+        <section id="products" class="my-10">
+            <h3 class="text-2xl font-bold mb-6">Our Products</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded shadow-lg p-4 text-center">
+                    <img src="https://via.placeholder.com/300x200" alt="Eco-Friendly Steel Straw" class="rounded mb-4">
+                    <h4 class="font-bold text-lg">Eco-Friendly Steel Straw</h4>
+                    <p class="text-gray-700 mt-2">Durable, reusable, and perfect for sustainable living. Easy to clean and lasts for years!</p>
+                    <p class="text-green-600 font-bold mt-4">Price: $5.99</p>
+                    <button class="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="cart" class="my-10">
+            <h3 class="text-2xl font-bold mb-6">Your Cart</h3>
+            <p class="text-gray-700">Your cart is currently empty. Start adding items to see them here!</p>
+        </section>
+
+        <section id="video" class="my-10">
+            <h3 class="text-2xl font-bold mb-6">Our Vision in Action</h3>
+            <div class="flex justify-center">
+                <iframe class="rounded shadow-lg" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="reviews" class="my-10">
+            <h3 class="text-2xl font-bold mb-6">Customer Reviews</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded shadow-lg p-4">
+                    <p class="italic">"These steel straws are a game-changer! I've completely eliminated plastic straws from my life."</p>
+                    <p class="text-right font-bold mt-4">- Jane Doe</p>
+                </div>
+                <div class="bg-white rounded shadow-lg p-4">
+                    <p class="italic">"Hadeox Enterprises products are premium and eco-friendly. Highly recommend!"</p>
+                    <p class="text-right font-bold mt-4">- John Smith</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="my-10 text-center">
+            <h3 class="text-2xl font-bold mb-6">Contact Us</h3>
+            <p class="text-lg">Have questions? Reach out to us anytime.</p>
+            <div class="mt-4 space-y-2">
+                <p>Email: <a href="mailto:hadeoxenterprises@gmail.com" class="text-blue-500">hadeoxenterprises@gmail.com</a></p>
+                <p>Phone: <a href="tel:+919605001733" class="text-blue-500">+91 9605001733</a></p>
+                <p>Follow us on social media:</p>
+                <div class="flex justify-center space-x-4 mt-2">
+                    <a href="#" class="text-blue-500 text-xl"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-blue-500 text-xl"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/hadeox.store" class="text-blue-500 text-xl"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-blue-500 text-xl"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="ai-assistant" class="fixed bottom-4 right-4 bg-gray-800 text-white p-4 rounded-full shadow-lg cursor-pointer hover:bg-gray-700" onclick="openAIChat()">
+        <i class="fas fa-robot text-2xl"></i>
+    </div>
+
+    <script>
+        function openAIChat() {
+            alert('Welcome! How can I assist you today?');
+        }
+    </script>
+
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2025 Hadeox Enterprises. All Rights Reserved.</p>
+        <p>Website designed with the latest web technologies.</p>
+    </footer>
+
+    <script>
+        // Form submit script
+        const form = document.querySelector("form");
+        form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            alert("Your order has been successfully submitted!");
+        });
+    </script>
+</body>
+</html>
